@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;  
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* 테이블 스타일 */
+.post-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.post-table th, .post-table td {
+  padding: 20px 30px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-table th {
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
+
+/* 각 열의 기본 너비 조정 */
+.column-id {
+  width: 15%;  
+}
+
+.column-title {
+  width: 50%;  
+}
+
+.column-date {
+  width: 15%;  
+}
+
+.column-views {
+  width: 20%;  
+}
+
+/* 버튼 스타일 */
+.write-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.write-btn:hover {
+  background-color: #45a049;
+}
+
+/* 링크 스타일 */
+.post-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
